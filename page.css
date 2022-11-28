@@ -1,0 +1,46 @@
+body{
+    position: relative;
+    background:black;
+}
+.seg{
+    font-size:30px;
+    font-family:cursive;
+    justify-content: center;
+    display: flex;
+    margin:auto;
+    color:white;
+}
+a.linn{
+    position: absolute;
+    padding:10px 300px;
+    background:rgb(5, 5, 5);
+    top:489px;
+    color:rgb(5, 5, 5);
+}
+a.linn:hover{
+    color:white;
+}
+#theRock{
+    position:absolute;
+    right:1px;
+    animation:move 4s linear infinite;
+    top:1px;
+    animation:move 1.4s infinite;
+}
+@keyframes move {
+    0% {
+       right:1px;
+   }
+    20%{
+       right:1100px;
+   }
+    20%{
+       top:1px;
+   }
+    40%{
+       top:350px;
+   }
+    60%{
+       left:1100px;
+   }
+}
